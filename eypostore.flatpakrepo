@@ -1,6 +1,6 @@
 [Flatpak Repo]
 Title=EypoStore
-Url=https://github.com/eypozax/eypostore
+Url=https://github.com/eypozax/eypostore/tree/main
 Homepage=https://github.com/eypozax/eypostore
 Comment=EypoStore repository for pypippark
 Description=Custom Flatpak repository for pypippark application
