@@ -1,0 +1,7 @@
+name: pypippark
+version: "2.0.0-alpha"
+description: "Manage a single, system-wide Python virtual environment (Rust port)."
+homepage: "https://github.com/eypozax/pypippark"
+license: "GPL-3.0"
+binaries:
+  linux-x86_64: "https://github.com/eypozax/pypippark/releases/download/v.2.0.0-alpha/pypippark"
