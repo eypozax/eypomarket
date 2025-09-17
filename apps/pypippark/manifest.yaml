@@ -1,7 +1,17 @@
-name: pypippark
-version: "2.0.0-alpha"
-description: "Manage a single, system-wide Python virtual environment (Rust port)."
-homepage: "https://github.com/eypozax/pypippark"
-license: "GPL-3.0"
-binaries:
-  linux-x86_64: "https://github.com/eypozax/pypippark/releases/download/v.2.0.0-alpha/pypippark"
+app-id: com.eypozax.pypippark
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
+finish-args:
+  - --filesystem=host
+  - --share=network
+modules:
+  - name: pypippark
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 pypippark /app/bin/pypippark
+    sources:
+      - type: file
+        url: https://github.com/eypozax/pypippark/releases/download/v.2.0.0-alpha/pypippark
+        sha256: b728457dc54282cdd8804e41005b943e29f0c3f3d3f361157dcba15026621749
+        dest-filename: pypippark

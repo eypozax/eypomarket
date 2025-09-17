@@ -1,0 +1,17 @@
+[Application]
+name=com.eypozax.pypippark
+runtime=org.freedesktop.Platform/x86_64/24.08
+sdk=org.freedesktop.Sdk/x86_64/24.08
+command=pypippark
+
+[Context]
+shared=network;
+filesystems=host;
+
+[Extension com.eypozax.pypippark.Debug]
+directory=lib/debug
+autodelete=true
+no-autodownload=true
+
+[Build]
+built-extensions=com.eypozax.pypippark.Debug;

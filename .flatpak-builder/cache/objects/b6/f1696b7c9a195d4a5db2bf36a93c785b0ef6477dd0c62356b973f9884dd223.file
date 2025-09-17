@@ -1,0 +1,30 @@
+{
+  "id" : "com.eypozax.pypippark",
+  "runtime" : "org.freedesktop.Platform",
+  "runtime-version" : "24.08",
+  "runtime-commit" : "e2cda5d7700bf0f02c764e151918a6e93def2634e8df9dc0dec52c4a1923ef88",
+  "sdk" : "org.freedesktop.Sdk",
+  "sdk-commit" : "59c3595a1607f4ad20479c722ed7338d99caea341e99aaaa0a93c3fafc46df41",
+  "modules" : [
+    {
+      "name" : "pypippark",
+      "buildsystem" : "simple",
+      "sources" : [
+        {
+          "url" : "https://github.com/eypozax/pypippark/releases/download/v.2.0.0-alpha/pypippark",
+          "sha256" : "b728457dc54282cdd8804e41005b943e29f0c3f3d3f361157dcba15026621749",
+          "dest-filename" : "pypippark",
+          "type" : "file"
+        }
+      ],
+      "build-commands" : [
+        "install -Dm755 pypippark /app/bin/pypippark"
+      ]
+    }
+  ],
+  "finish-args" : [
+    "--filesystem=host",
+    "--share=network"
+  ],
+  "source-date-epoch" : 1758146515
+}
