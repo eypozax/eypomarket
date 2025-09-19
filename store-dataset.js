@@ -27,7 +27,7 @@ const storeData = [
         "desc": "Scriptable Questionnaire Engine transcompiler",
         "links": [
             { "label": "Source Code", "url": "https://github.com/eypozax/SQE" },
-            { "label": "Documentation", "url": "https://eypozax.github.io/docs/sqe" },
+            { "label": "Documentation", "url": "https://eypozax.github.io/docs/SQE" },
             { "label": "Install", "url": "https://github.com/eypozax/SQE/releases/" }
         ]
     },
@@ -37,7 +37,7 @@ const storeData = [
         "desc": "Scriptable Questionnaire Engine IDLE",
         "links": [
             { "label": "Source Code", "url": "https://github.com/eypozax/SQE" },
-            { "label": "Documentation", "url": "https://eypozax.github.io/docs/sqe" },
+            { "label": "Documentation", "url": "https://eypozax.github.io/docs/SQE" },
             { "label": "Install", "url": "https://github.com/eypozax/SQE/releases/" }
         ]
     }
