@@ -10,9 +10,9 @@ const storeData = [
             "assets/images/pypippark/pppim3.webp"
         ],
         "links": [
-            { "label": "Source Code", "url": "https://github.com/example" },
-            { "label": "Documentation", "url": "https://docs.example.com" },
-            { "label": "Install", "url": "https://install.example.com" }
+            { "label": "Source Code", "url": "https://github.com/eypozax/pypippark" },
+            { "label": "Documentation", "url": "https://eypozax.github.io/docs/pypippark" },
+            { "label": "Install", "url": "https://eypozax.github.io/docs/pypippark/installation" }
         ]
 
     },
