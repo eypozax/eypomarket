@@ -1,5 +1,0 @@
-[Runtime]
-name=com.eypozax.pypippark.Debug
-
-[ExtensionOf]
-ref=app/com.eypozax.pypippark/x86_64/master

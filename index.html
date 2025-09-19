@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eypomarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>📦 Eypomarket</h1>
+    <div id="store-container"></div>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup" aria-hidden="true">
+        <div class="popup-content" role="dialog" aria-modal="true" aria-labelledby="popup-heading">
+            <button id="close-popup" class="close-btn" aria-label="Close">&times;</button>
+            <h2 id="popup-heading">Details</h2>
+            <div id="popup-details" class="details-menu"></div>
+
+            <!-- Slideshow -->
+            <div id="slideshow" class="slideshow" style="display:none;">
+                <button id="prev-slide" class="slide-btn">&#10094;</button>
+                <img id="slide-image" src="" alt="Screenshot">
+                <button id="next-slide" class="slide-btn">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Load dataset first -->
+    <script src="store-dataset.js"></script>
+    <!-- Then load main script -->
+    <script src="script.js"></script>
+</body>
+</html>
