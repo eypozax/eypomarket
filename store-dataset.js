@@ -24,11 +24,21 @@ const storeData = [
     {
         "name": "SQE language transcompiler",
         "version": "1.0.0-alpha",
-        "desc": "Scriptable Questionnaire Engine transcompiler"
+        "desc": "Scriptable Questionnaire Engine transcompiler",
+        "links": [
+            { "label": "Source Code", "url": "https://github.com/eypozax/SQE" },
+            { "label": "Documentation", "url": "https://eypozax.github.io/docs/sqe" },
+            { "label": "Install", "url": "https://github.com/eypozax/SQE/releases/" }
+        ]
     },
     {
         "name": "SQE language IDLE",
         "version": "1.0.0-alpha",
-        "desc": "Scriptable Questionnaire Engine IDLE"
+        "desc": "Scriptable Questionnaire Engine IDLE",
+        "links": [
+            { "label": "Source Code", "url": "https://github.com/eypozax/SQE" },
+            { "label": "Documentation", "url": "https://eypozax.github.io/docs/sqe" },
+            { "label": "Install", "url": "https://github.com/eypozax/SQE/releases/" }
+        ]
     }
 ];
